@@ -1,8 +1,9 @@
 h1 {
     color : #000000;
     text-shadow: #444444;
-    background-color: #91ddcf;
-    border : solid #e8c5e5 10px
+    background-color: #FDFD96;
+    border : solid #91ddcf 5px;
+    text-align: center;
 }
 
 h2 {
@@ -18,9 +19,24 @@ h3 {
 
 }
 
-h3 a{
-    font-size: 30px;
-    
+h3 {
+    font-size: 45px;
+    margin : 0px;
+}
+
+#itzy{
+    height : 486px;
+    background-image: url('https://danmee.jp/wp-content/uploads/2022/07/itzy-sneakers3.jpg');
+}
+#aespa{
+    margin-left: 110px ;
+    width : 560px;
+    height :374px;
+    background-image: url('https://ekr.chosunonline.com/site/data/img_dir/2020/11/01/2020110180005_0.jpg');
+}
+#ive{
+
+    background-image: url('');
 }
 
 #top {
@@ -57,10 +73,10 @@ h3 a{
 }
 
 .sidebar li {
-    background-color: #e8c5e5;
+    background-color: #FDFD96;
     margin-bottom : 5px;
-    border-right : solid medium #7776b3;
-    border-bottom : solid medium #7776b3;
+    border-right : solid medium #7fbfff;
+    border-bottom : solid medium #7fbfff;
     padding : 5px 5px 5px 5px;
     display : block;
     text-align : center;
@@ -101,4 +117,5 @@ h2 {
 body {
     background-color: #ffffff;
     margin: 0;
+    background-image:url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUs3DSl7PBik7zKtyPPB8sJKwYybJLNLomgQ&s.') ;
 }
