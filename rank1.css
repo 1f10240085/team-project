@@ -1,9 +1,15 @@
+h1 {
+    background: linear-gradient(to right, #f00, #ff8a08);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
 .top_list {
-    width: 200px;
+    width: 20%;
     padding: 20px;
-    box-shadow: 10px 0 5px #5d4f4f;
-    background-color: #c2bcbca1;
-    color: #000;
+    box-shadow: 10px 0 5px #e8c5e5;
+    background-color: #91ddcf;
+    color: #f0ebe3;
 
 }
 
@@ -47,11 +53,29 @@ img {
     margin-left: auto;
 }
 
+.card_wrap {
+    display: flex;
+}
 .card_list {
     max-width: 300px;
 }
 
-.card_listTitle {
+.card_YEJI {
+    color: #ff52ee;
+}
+.card_RIA {
+    color: #4bdfd5;
+}
+.card_RYUJIN {
+    color: #eda4ff;
+}
+.card_CHERYON {
+    color: #59bff7;
+}
+.card_YUNA {
+    color: #fff87b;
+}
+.card_YEJI, .card_RIA, .card_RYUJIN, .card_CHERYON, .card_YUNA {
     font-size: 20px;
     font-weight: bold;
     text-align: center;
