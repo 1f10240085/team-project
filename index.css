@@ -1,6 +1,7 @@
 h1 {
-    color : #eeeeee;
-    background-color: #000000;
+    color : #e8c5e5;
+    text-shadow: #444444;
+    background-color: #91ddcf;
 }
 
 h2 {
@@ -21,8 +22,15 @@ h2 {
     text-decoration: none;
 }
 
+#container {
+    display: flex;
+    flex-direction: row;
+  }
+  
+
 .sidebar {
     width : 30%;
+    margin: 10px 0 10px 0;
     font-size : 20px;
 
     
@@ -35,10 +43,10 @@ h2 {
 }
 
 .sidebar li {
-    background-color: #e2bbe9;
+    background-color: #e8c5e5;
     margin-bottom : 5px;
-    border-right : solid medium #9b86bd;
-    border-bottom : solid medium #9b86bd;
+    border-right : solid medium #7776b3;
+    border-bottom : solid medium #7776b3;
     padding : 5px 5px 5px 5px;
     display : block;
     text-align : center;
@@ -47,6 +55,7 @@ h2 {
 
 .content {
     width : 70%;
+    float: right;
     margin: 10px 0 10px 0;
     
 }
@@ -75,6 +84,7 @@ h2 {
     
 }
 
-h2 {
-    
+body {
+    background-color: #ffffff;
+    margin: 0;
 }
