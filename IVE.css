@@ -1,22 +1,27 @@
 h1 {
     color : #eeeeee;
     background-color: #000000;
-}
-
-h2 {
-    
-
-}
-
-h2 {
+    text-align: center;
+    font-size : 50px;
+    margin-top : 0px;
     
 }
 
 h2 {
     
+
 }
 
-h2 {
+body {
+    background-color: #9fc2e0;
+}
+
+img {
+    width : 100%;
+
+}
+
+#logo {
     
 }
 
