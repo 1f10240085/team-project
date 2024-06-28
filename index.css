@@ -1,12 +1,26 @@
 h1 {
-    color : #e8c5e5;
+    color : #000000;
     text-shadow: #444444;
     background-color: #91ddcf;
+    border : solid #e8c5e5 10px
 }
 
 h2 {
+    background-color : #91ddcf;
+    text-align: center;
     
 
+}
+
+h3 {
+    text-align: center;
+
+
+}
+
+h3 a{
+    font-size: 30px;
+    
 }
 
 #top {
@@ -29,7 +43,7 @@ h2 {
   
 
 .sidebar {
-    width : 30%;
+    width : 20%;
     margin: 10px 0 10px 0;
     font-size : 20px;
 
@@ -54,7 +68,7 @@ h2 {
 }
 
 .content {
-    width : 70%;
+    width : 80%;
     float: right;
     margin: 10px 0 10px 0;
     
